@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Tic Tac Toe.js</title>
+</head>
+
+<body class="center">
+    <main class="center">
+        <h1 class="montserrat-700 title">Tic Tac Toe.js</h1>
+
+        <div class="scoreboard">
+            <h2 class="user-tip">Scoreboard</h2>
+            <div class="players-name">
+                <span class="x-player-span">X Player: </span>
+                <span id="xPlayerScore">0</span>
+                <span> | </span>
+                <span class="o-player-span">O Player: </span>
+                <span id="oPlayerScore">0</span>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="cell" data-cell="0"></div>
+            <div class="cell" data-cell="1"></div>
+            <div class="cell" data-cell="2"></div>
+            <div class="cell" data-cell="3"></div>
+            <div class="cell" data-cell="4"></div>
+            <div class="cell" data-cell="5"></div>
+            <div class="cell" data-cell="6"></div>
+            <div class="cell" data-cell="7"></div>
+            <div class="cell" data-cell="8"></div>
+        </div>
+
+        <div class="reset-game-div">
+            <button class="reset-game-btn">RESET</button>
+        </div>
+
+        <div class="copyright"><p>developed by <a href="https://github.com/mateusvcsmoura" target="_blank">Mateus</a>.</p></div>
+    </main>
+
+    <script src="/js/index.js"></script>
+</body>
+
+</html>
